@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Luma suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Luma test(failed)">
+    <parameter name="firstName" value="Thomas"/>
+    <parameter name="lastName" value="Shelby"/>
+    <parameter name="zipCode" value="60656"/>
+    <parameter name="address" value="1 N Dearborn st"/>
+    <parameter name="city" value="Chitown"/>
+    <parameter name="telephone" value="31231242343"/>
+    <parameter name="email" value="vnvnv@kjk.com"/>
+    <classes>
+      <class name="selenium.com.luma.tests.LumaScript">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validatePurchase" invocation-numbers="0"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- selenium.com.luma.tests.LumaScript -->
+    </classes>
+  </test> <!-- Luma test(failed) -->
+</suite> <!-- Failed suite [Luma suite] -->
